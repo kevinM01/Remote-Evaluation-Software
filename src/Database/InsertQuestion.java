@@ -109,7 +109,7 @@ public class InsertQuestion extends JFrame implements ActionListener
             {
 
                Class.forName("com.mysql.cj.jdbc.Driver");
-               try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" , "Virti#200")) 
+               try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" , "")) 
                {
                     String sql = "insert into question values (?,?,?,?,?,?,?,?)";
                     PreparedStatement pstmt = conn.prepareStatement(sql);
