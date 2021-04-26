@@ -83,7 +83,7 @@ public class edit_student extends JFrame implements ActionListener
           public void actionPerformed(ActionEvent e)
         {
          try{ Class.forName("com.mysql.cj.jdbc.Driver");
-      Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" , "Virti#200");
+      Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" , "");
 
       if(e.getSource() == b1)
       {
