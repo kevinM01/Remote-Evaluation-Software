@@ -126,7 +126,7 @@ public class Registration extends JFrame implements ActionListener
                 else
                 {
                     Class.forName("com.mysql.cj.jdbc.Driver");
-                try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" , "Virti#200")) {
+                try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" , "")) {
                     String sql = "insert into student_info values (?,?,?,?,?,?)";
                     PreparedStatement pstmt = conn.prepareStatement(sql);
                     pstmt.setString(1, t1.getText());
