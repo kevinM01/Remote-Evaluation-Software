@@ -81,7 +81,7 @@ public class AdminLogin extends JFrame implements ActionListener {
                 } catch (ClassNotFoundException ex) {
                     Logger.getLogger(AdminLogin.class.getName()).log(Level.SEVERE, null, ex);
                 }
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" , "Virti#200");
+                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" , "");
                 PreparedStatement pstmt = conn.prepareStatement(sql);
                 pstmt.setString(1, t1.getText());
                 pstmt.setString(2, new String(p.getPassword()));
