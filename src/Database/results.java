@@ -63,7 +63,7 @@ public class results extends JFrame implements ActionListener{
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student", "root", "Virti#200");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student", "root", "");
             Statement st = conn.createStatement();
             String sql = "insert into results (E_mail,topic,totalmarks,markssecured,result) values (?,?,?,?,?)";
             PreparedStatement pstmt = conn.prepareStatement(sql);
