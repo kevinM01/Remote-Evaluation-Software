@@ -72,7 +72,7 @@ public class First extends JFrame implements ActionListener
                     pwdText = p.getText();
                         String sql = "select E_mail,Password from student_info where E_mail=? and Password = ?";
                         Class.forName("com.mysql.cj.jdbc.Driver");
-                        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" , "Virti#200");
+                        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" , "");
                         PreparedStatement pstmt = conn.prepareStatement(sql);
                         pstmt.setString(1,t1.getText());
                         pstmt.setString(2,new String(p.getPassword()));
