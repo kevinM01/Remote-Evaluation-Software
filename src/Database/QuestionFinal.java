@@ -97,7 +97,7 @@ public class QuestionFinal extends JFrame implements ActionListener {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/student", "root", "Virti#200");
+            Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/student", "root", "");
             Statement st = c.createStatement();
             String sql = "insert into question values (?,?,?,?,?,?,?,?,?)";
             PreparedStatement pstmt = c.prepareStatement(sql);
