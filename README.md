@@ -15,6 +15,11 @@ have automated checking of answers based on the responses by the candidates.
 
 * Java
 
+# ARCHITECTURE 
+
+![architecture](https://user-images.githubusercontent.com/78092182/124120062-ec53e900-da90-11eb-9725-f7425b3d6d01.png)
+
+
 # DEMONSTRATION
 
 ## Admin Module 
