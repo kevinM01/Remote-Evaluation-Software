@@ -22,12 +22,11 @@ have automated checking of answers based on the responses by the candidates.
 
 # DEMONSTRATION
 
-## Admin Module 
-
-
 Main Login Page 
 
 ![Main](https://user-images.githubusercontent.com/78092182/124115481-78fba880-da8b-11eb-9943-3c1b91831344.png)
+
+## Admin Module 
 
 Successful Login by Admin 
 
