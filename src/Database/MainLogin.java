@@ -15,8 +15,8 @@ public class MainLogin extends JFrame implements ActionListener {
         l1 = new JLabel();
         l1.setText("LOGIN AS");
         l1.setFont(new Font("ARIEL", Font.PLAIN, 17));
-        b1 = new JButton("STUDENT");
-        b2 = new JButton("ADMIN");
+        b1 = new JButton("STUDENT LOGIN");
+        b2 = new JButton("ADMIN LOGIN");
         //b3 = new JButton("Previous page");
 
         cp.setLayout(null);
