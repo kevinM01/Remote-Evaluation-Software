@@ -1,4 +1,4 @@
-# ONLINE EXAMINATION SYSTEM
+# REMOTE EVALUATION SOFTWARE
 Online examination system project is a web application which is useful for
 education purpose.The purpose of this system is to design a demo test app
 through which students can gain an environment to practice examination
